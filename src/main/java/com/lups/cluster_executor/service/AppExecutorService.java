@@ -12,10 +12,10 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class AppExecutorService {
 
-    //private final String storagePath = "/home/ubuntu/cloud";
-    private final String storagePath = "/home/javadev/cloud";
-    //private final String sshKnownHostsPath = "/home/ubuntu/.ssh/known_hosts";
-    private final String sshKnownHostsPath = "/home/javadev/.ssh/known_hosts";
+    private final String storagePath = "/home/ubuntu/cloud";
+    //private final String storagePath = "/home/javadev/cloud";
+    private final String sshKnownHostsPath = "/home/ubuntu/.ssh/known_hosts";
+    //private final String sshKnownHostsPath = "/home/javadev/.ssh/known_hosts";
 
     public String codeExecutor(List<MultipartFile> files) {
 
